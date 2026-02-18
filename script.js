@@ -88,7 +88,7 @@ function handleSubmit(event) {
         `${message}`;
     
     // WhatsApp number (replace with actual number)
-    const whatsappNumber = '972501234567'; // Format: country code + number without leading 0
+    const whatsappNumber = '972587044719'; // Format: country code + number without leading 0
     
     // Open WhatsApp
     window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank');
