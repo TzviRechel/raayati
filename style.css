@@ -58,6 +58,7 @@ body {
     display: flex;
     align-items: center;
     gap: 0.6rem;
+    overflow: hidden;
     font-size: 1.8rem;
     font-weight: 700;
     color: var(--primary-color);
@@ -715,6 +716,12 @@ section {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .logo img {
+        width: 32px;
+        height: 32px;
+        transform: scale(1.1);
+    }
+
     .mobile-menu-toggle {
         display: flex;
     }
